@@ -59,56 +59,6 @@ router.get('/', [auth,admin], async (req, res) => {
 
  
   const status = req.query.status;
-  /*if ( typeof status === 'undefined' || status === 'ALL' || status === ''){
-    var adminParam = true;
-    var isActiveParam = true;
-    var notActiveParam = false;
-    
-    var users = await User
-      .find()
-      .or([ {isAdmin: adminParam}, {isActive: isActiveParam} , {isActive: notActiveParam}])
-      .sort(sortParam)
-      .select('-password')
-      .select('-__v');
-
-    res.send(users.map(change));
-  } 
-  else if (status === 'NOTACTIVE'){
-    var adminParam = false;
-    var isActiveParam = false;
-
-    var users = await User
-      .find()
-      .and([ {isAdmin: adminParam}, {isActive: isActiveParam}])
-      .sort(sortParam)
-      .select('-password').select('-__v');
-
-      res.send(users.map(change));
-  }
-  else if (status === 'ACTIVE') {
-    var adminParam = false;
-    var isActiveParam = true;
-    
-    var users = await User
-      .find()
-      .and([ {isAdmin: adminParam}, {isActive: isActiveParam}])
-      .sort(sortParam)
-      .select('-password').select('-__v');
-
-      res.send(users.map(change));
-  }
-  else if (status === 'ADMIN'){
-    var adminParam = true;
-    var users = await User
-      .find()
-      .or([ {isAdmin: adminParam}])
-      .sort(sortParam)
-      .select('-password').select('-__v');
-
-      res.send(users.map(change));
-  }
-  else return res.send('Λάθος τιμή για την κατάσταση (status)');*/
-
   if ( typeof status === 'undefined' || status === 'ALL' || status === ''){
     var param = {};
     
