@@ -1,7 +1,10 @@
 # caffeine_overflow
 
- ~ A sophisticated REST api of an e-commerce site for selling coffee using Node.js with express.js framework and MongoDB. ~<br>
- 
+ <br>~ A sophisticated REST api of an e-commerce site for selling coffee using Node.js with express.js framework and MongoDB. ~<br>
+
+==================================================================
+<br>Initial installs:</br> 
+
 --> First you need to install node, nodemon and MongoDB in your system.<br>
 --> cd /path_to_index.js<br>
 --> sudo npm i (to install the npm packages included in package.json)<br>
@@ -10,4 +13,5 @@
 --> nodemon (the app listens to port 8765)<br>
 
 <br> ============================================================= </br>
-Endpoints
+<br>Endpoints:</br>
+
