@@ -1,6 +1,4 @@
 # caffeine_overflow
-
- <br>~ A sophisticated REST api of an e-commerce site for selling coffee using Node.js with express.js framework and MongoDB. ~<br>
     
     System's assumptions:
       --> A user has to be logged in, in order to post/update/patch/delete and he has to provide a valid token 
