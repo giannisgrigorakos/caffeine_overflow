@@ -27,7 +27,7 @@
       gets all the users, ACTIVE, which gets all the users with the isActive bool set to true, NOTACTIVE which gets all the
       users with the isActive bool set to false and isAdmin which gets all the users with the isAdmin bool set to true.
       --> In users the GET /id and PUT methods can only be executed by an admin.
-      --> 
+      
     Initial installs: 
       --> First you need to install node, nodemon and MongoDB in your system.
       --> cd /path_to_index.js
