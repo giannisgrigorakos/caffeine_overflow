@@ -9,7 +9,7 @@
       --> All CRUD operations are HTTPS.
       --> start variable in the header takes a number of the items that is going to skip in order to start counting. 
       e.g start=2 starts counting from the third item and so on. By default the value is 0(zero).
-      --> count varaible in the header takes a number and shows that many items in a single page. e.g count=20 in this page 20
+      --> count variable in the header takes a number and shows that many items in a single page. e.g count=20 in this page 20
       items are going to be displayed starting from index 'start'. By default the value is 20(twenty).
       --> status variable in the header has 3 options. ALL, which shows all the items, ACTIVE, which shows only the items with
       the isActive bool set to true and WITHDRAWN which shows only the items with the isActive bool set to false. By default
