@@ -1,6 +1,6 @@
-# caffeine_overflow
+### caffeine_overflow
     
-    System's assumptions:
+   ## System's assumptions:
       --> A user has to be logged in, in order to post/update/patch/delete and he has to provide a valid token 
       which is returned to him when he logins in the header section under the X-OBSERVATORY-AUTH variable. He has to send it 
       in the X-OBSERVATORY-AUTH variable as well to perform the post/update/patch/delete method.
@@ -28,7 +28,7 @@
       users with the isActive bool set to false and isAdmin which gets all the users with the isAdmin bool set to true.
       --> In users the GET /id and PUT methods can only be executed by an admin.
       
-    Initial installs: 
+## Initial installs: 
       --> First you need to install node, nodemon and MongoDB in your system.
       --> cd /path_to_index.js
       --> sudo npm i (to install the npm packages included in package.json)
@@ -39,7 +39,7 @@
       runs automatically)
       --> nodemon (the app listens to port 8765)
 
-    Endpoints:
+  ##  Endpoints:
       -->products:
            GET  observatory/api/products?start=&count=&status=&sort= --> get all products
            POST observatory/api/products --> create a product. The body of the product is name,description,category,tags,
